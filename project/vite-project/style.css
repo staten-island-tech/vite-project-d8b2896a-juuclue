@@ -1,18 +1,75 @@
-
-:root{
-  background-color: lightpink;
-  
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
-body {
+:root{
+ --light-pink:#FFDDF4;
+ --lavender: #c6b1e1;
+ --light-blue:#C6E6FB;
+ --light-yellow:#FFFFCC;
+ --light-green:#D0F0C0;
+ --cream-white: #ffffF0;
+
+ /*intentions */
+ --primary:var( --light-pink);
+ --secondary: var(--lavender);
+ --h1: 7.594rem;
+ --h2: 5.063rem;
+ --h3: 3.374rem;
+ --h4: 2.23rem;
+ --h5: 1.5rem;
+
+}
+
+.header {
+  background-color: var(--primary);
+}
+.main {
+  background-color: var(--secondary);
+}
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+/* body {
   font-family: 'Cabin', sans-serif;
 font-family: 'Lobster', sans-serif;
 font-family: 'Roboto Mono', monospace;
 }
 .header{
-  background-color: lavender;
+  background-color: var --light-pink;
   text-align:center;
+  color: aliceblue;
+  border: 5px solid white;
+  border-radius: 10px;
 }
-.button {
+ .button {
 
   align-items: center;
   width: 100%;
@@ -20,106 +77,64 @@ font-family: 'Roboto Mono', monospace;
   flex-wrap: wrap;
   justify-content:flex-end;
   justify-content:space-around;
+  border-radius:8px
+  
+
+} 
+.h2:hover {
+  border-color: lightyellow;
+}
+.h2{
+  background-color:beige;
+  border-color:white;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color:grey;
 }
 
-
-
-
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.h3:hover {
+  border-color: lightyellow;
+}
+.h3{
+  background-color:#C6E6FB;
+  border-color:white;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color:grey;
+}
+.h4:hover {
+  border-color: lightyellow;
+}
+.h4{
+  background-color:pink;
+  border-color:white;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color:grey;
+}
+.h5:hover {
+  border-color: lightyellow;
+}
+.h5{
+  background-color:#D0F0C0;
+  border-color:white;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color:grey;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.h6:hover {
+  border-color: lightyellow;
 }
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
- */
+.h6{
+  background-color:#C3B1E1;
+  border-color:white;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color:grey;
+} */
