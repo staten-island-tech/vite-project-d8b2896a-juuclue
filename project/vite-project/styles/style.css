@@ -67,11 +67,17 @@ h1 {
   background-color: var(--cream-white);
   border-color: var(--light-pink);
 }
+.h6 {
+  font-size: var(--h4);
+  background-color: var(--cream-white);
+  border-color: var(--light-pink);
+}
 h1,
 .h2,
 .h3,
 .h4,
-.h5 {
+.h5,
+.h6 {
   text-align: center;
 }
 .button {
