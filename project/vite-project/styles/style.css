@@ -1,6 +1,9 @@
 html,
-body,
-* {
+body, 
+*{
+
+}
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +15,7 @@ body,
   text-align: center;
   background-color: var(--cream-white);
   
-}
+} */
 :root{
  --light-pink:#FFDDF4;
  --lavender: #c6b1e1;
@@ -23,8 +26,10 @@ body,
  --light-orange: #F5DEB3;
 
  /*intentions */
- --primary:var( --light-pink);
+/*  --primary:var( --light-pink);
  --secondary: var(--lavender);
+ */
+ 
  --h1: 7.594rem;
  --h2: 5.063rem;
  --h3: 3.374rem;
@@ -32,8 +37,21 @@ body,
  --h5: 1.5rem;
 
 }
+.pinkity {
+ 
+  --primary: var(--light-pink);
+  --secondary: var(--lavender);
 
-.header {
+
+}
+.drinkity {
+
+  --primary: var(--light-pink);
+  --secondary: var(--light-blue);
+
+
+}
+ .header {
   background-color: var(--primary);
 }
 
@@ -41,9 +59,9 @@ h1 {
   font-size: var(--h1);
   background-color: var(--lavender);
   border: 10px solid var(--lavender);
-}
+} 
 
-#kitchen {
+/* #kitchen {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
@@ -71,14 +89,9 @@ h1 {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
-}
-#theme {
-  font-size: var(--h4);
-  background-color: var(--cream-white);
-  border-color: var(--light-pink);
+} */
 
-}
-h1,
+/* h1,
 .kitchen,
 .flooring,
 .exterior,
@@ -100,6 +113,23 @@ h1,
   
 
 } 
+
+.btn {
+
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+  justify-content:space-around;
+  border-radius:8px
+  
+
+} 
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
 .card {
 
   align-content: center;
@@ -118,7 +148,7 @@ h1,
  
   outline-offset: 3rem;
   width: 350px;
-}
+} */
 
 /* body {
   font-family: 'Cabin', sans-serif;
