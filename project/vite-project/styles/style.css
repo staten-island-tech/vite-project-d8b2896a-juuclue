@@ -43,42 +43,50 @@ h1 {
   border: 10px solid var(--lavender);
 }
 
-.h2 {
+#kitchen {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
 }
 
 
-.h3 {
+#flooring {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
 }
 
-.h4 {
+#exterior {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
 }
 
-.h5 {
+#interior {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
 }
-.h6 {
+#bathroom {
   font-size: var(--h4);
   background-color: var(--cream-white);
   border-color: var(--light-pink);
+}
+#theme {
+  font-size: var(--h4);
+  background-color: var(--cream-white);
+  border-color: var(--light-pink);
+
 }
 h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  text-align: center;
+.kitchen,
+.flooring,
+.exterior,
+.interior,
+.bathroom,
+.theme
+{
+ text-align: center;
 }
 .button {
 
