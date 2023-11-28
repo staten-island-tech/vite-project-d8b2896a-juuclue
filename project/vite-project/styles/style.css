@@ -1,7 +1,10 @@
 html,
 body, 
 *{
-
+  font-size: 62.5%;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 /* * {
   margin: 0;
@@ -26,9 +29,9 @@ body,
  --light-orange: #F5DEB3;
 
  /*intentions */
-/*  --primary:var( --light-pink);
+ --primary:var( --light-pink);
  --secondary: var(--lavender);
- */
+ 
  
  --h1: 7.594rem;
  --h2: 5.063rem;
@@ -46,13 +49,13 @@ body,
 }
 .drinkity {
 
-  --primary: var(--light-pink);
-  --secondary: var(--light-blue);
+  --primary: var(--light-blue);
+  --secondary: var(--cream-white);
 
 
 }
  .header {
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 h1 {
@@ -101,6 +104,8 @@ h1 {
 {
  text-align: center;
 }
+*/
+
 .button {
 
   align-items: center;
@@ -109,11 +114,11 @@ h1 {
   flex-wrap: wrap;
   justify-content:flex-end;
   justify-content:space-around;
-  border-radius:8px
-  
+  border-radius:8px;
+  font-size: var(--h2);
 
 } 
-
+/*
 .btn {
 
   align-items: center;

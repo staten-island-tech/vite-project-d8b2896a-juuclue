@@ -4,7 +4,7 @@ const DOMSelectors = {
     exterior: document.querySelector("#exterior"),
     interior: document.querySelector("#interior"),
     bathroom: document.querySelector("#bathroom"),
-    theme: document.querySelector("#theme"),
+    theme: document.querySelector(".theme"),
 /*     card: document.querySelector(".card"),
     cardimg: document.querySelector(".cardimg"),
     button: document.querySelector(".btn"), */
