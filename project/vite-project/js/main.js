@@ -1,9 +1,12 @@
-import "../styles/style.css";
-import { DOMSelectors } from "./dom";
-import { home } from "./cards";
+import "../styles/style.css"
 
+import { DOMSelectors } from './dom'
 
-document.querySelector(".theme").addEventListener("click", function(e) {
+import'../js/dom'
+
+import { services } from './cards'
+
+ document.querySelector(".theme").addEventListener("click", function(e) {
     console.log(e.target)
     if(document.body.classList.contains("pinkity")) {
     document.body.classList.add("drinkity");
@@ -12,9 +15,44 @@ document.querySelector(".theme").addEventListener("click", function(e) {
     document.body.classList.add("pinkity");
     document.body.classList.remove("drinkity");
     }
-});
+}); 
 
-function blah(){
+
+ function insert(arr){
+   arr.forEach((object) => {
+      DOMSelectors.container.insertAdjacentHTML(
+         "afterbegin",
+         `<div class="card">
+         <h2>${object.name}</h2>
+         <img src ="${object.image}" alt="" class = "image">
+         <h3>${object.classification}</h3>
+
+         </div>`
+      )
+   })
+};
+insert(services) 
+
+function clearfields(){
+const clear = document.querySelector(".container");
+clear.innerHTML = ""
+};
+
+let buttons = document.querySelectorAll("button")
+
+buttons.forEach((btn) => btn.addEventListener("click", function(){
+
+   let depot = btn.textContent;
+   let newarr = services.filter((service) => service.classification === depot);
+    clearfields();
+   insert(newarr);
+}))
+
+DOMSelectors.all.addEventListener("click", function() {
+   clearfields();
+   insert(services)
+})
+/*  function blah(){
  home.forEach((item)=> DOMSelectors.cards.insertAdjacentHTML("beforeend",
  `<div class="card" id="all">
  <h2 class="card-name">${item.name}</h2>
@@ -111,6 +149,6 @@ function bathroom(){
     DOMSelectors.cards.innerHTML = '';
     bathroom();
  });
- blah();
+ blah();  */
 
 

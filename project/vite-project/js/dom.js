@@ -1,11 +1,13 @@
 const DOMSelectors = {
-    h2: document.querySelector(".h2"),
-    h3: document.querySelector(".h3"),
-    h4: document.querySelector(".h4"),
-    h5: document.querySelector(".h5"),
-    h6: document.querySelector(".h6"),
+    pinkity: document.querySelector(".pinkity"),
+    container: document.querySelector(".container"),
+    all: document.querySelector(".all"),
+    kit: document.querySelector(".kit"),
+    flo: document.querySelector(".flo"),
+    ext: document.querySelector(".ext"),
+    int: document.querySelector(".int"),
+    bat: document.querySelector(".bat"),
+    theme: document.querySelector(".theme"),
 
-/*     card: document.querySelector(".card"),
-    cardimg: document.querySelector(".cardimg"),
-    button: document.querySelector(".btn"), */
 };
+export {DOMSelectors};
