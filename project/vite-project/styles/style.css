@@ -124,7 +124,7 @@ h1 {
   display: block;
   object-fit: contain;
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .card {
 display: flex;

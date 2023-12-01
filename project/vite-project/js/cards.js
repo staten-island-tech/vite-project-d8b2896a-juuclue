@@ -70,7 +70,7 @@ const services = [
 
     {
     name: "sink",
-    image: "../sinks.3.avif",
+    image: "../pinks.webp",
 
     classification: "kitchen services",
     },
@@ -173,7 +173,7 @@ const services = [
     },
     {
     name: "curtain",
-    image: "../curtain.jpg",
+    image: "../hotpink.jpg",
 
     classification: "interior services",
     },
