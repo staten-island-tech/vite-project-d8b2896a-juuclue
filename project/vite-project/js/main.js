@@ -38,7 +38,7 @@ const clear = document.querySelector(".container");
 clear.innerHTML = ""
 };
 
-let buttons = document.querySelectorAll("button")
+let buttons = document.querySelectorAll(".kit, .flo, int, .ext, .bat")
 
 buttons.forEach((btn) => btn.addEventListener("click", function(){
 

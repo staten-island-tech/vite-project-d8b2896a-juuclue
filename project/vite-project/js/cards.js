@@ -2,13 +2,13 @@ export{services};
 const services = [
     {
     name: "counter",
-    image:"../counters.jpg",
+    image:"/counters.jpg",
 
     classification: "kitchen services",
     },
     {
     name: "counter",
-    image:"/counter.2.avif",
+    image:"/countersssssss.jpg",
     classification: "kitchen services",
     },
 

@@ -1,11 +1,12 @@
 html,
 body, 
 *{
-  font-size: 62.5%;
+  font-size: 100%;
   font-family: 'Cabin', sans-serif;
   font-family: 'Lobster', sans-serif;
   font-family: 'Roboto Mono', monospace;
   background-color: var(--light-yellow);
+  text-align: center;
 
 }
 
@@ -107,7 +108,7 @@ h1 {
   justify-content:flex-end;
   justify-content:space-around;
   border-radius:8px;
-  font-size: var(--h4);
+  font-size: var(--h5);
   justify-content: space-evenly;
 
 } 
@@ -121,23 +122,27 @@ h1 {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 .image {
-  display: block;
-  object-fit: contain;
-  width: 100%;
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   padding: 0.8rem;
+
+  
 }
 .card {
-display: flex;
+
+ display: flexbox;
 flex-wrap: wrap;
 background: var(--light-orange);
 width: 20vw;
-max-height: 30vh;
+height: 30vh;
 border-radius: 4rem;
 overflow:hidden;
 border: 0.3rem solid;
 margin: 1rem;
 padding: 5rem;
-border-color: var(--cream-white);
+border-color: var(--cream-white); 
 
 
 }
